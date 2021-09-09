@@ -15,7 +15,7 @@ class framexy extends JFrame implements ActionListener
 		super("Reading file");
 	
 		t2=new JTextField(30);
-		b1=new JButton("Display the text !")
+		b1=new JButton("Display the text !");
 		setLayout(new FlowLayout());		
 		add(b1);
 		add(t2);
